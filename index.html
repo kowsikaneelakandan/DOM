@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <h1 id="title">Dom manipulation</h1>
+    <div class="container"> 
+        <div class="form">
+            <label>First Name: <input id="name" type="text"></label>
+            <label>Last Name: <input id="last" type="text"></label>
+            <label>Email: <input id="email" type="text"></label>
+            <label>Address: <input id="Add" type="text"></label>
+            <label>Pincode: <input id="P.code" type="text"></label>
+            <label>Gender: <input id="gender" type="text"></label>
+            <label>State: <input id="state" type="text"></label>
+            <label>Country: <input id="Country" type="text"></label>
+            <label id="foodform">Food</label>
+            <input type="checkbox" name="food" value="Dosa">Dosa
+            <input type="checkbox" name="food" value="Idly">Chappathi
+            <input type="checkbox" name="food" value="Chappathi">Idly
+            <input type="checkbox" name="food" value="Pongal">Pongal
+            <input type="checkbox" name="food" value="vada">Vada
+
+            <button onclick="publishToTable()">Submit</button>
+                    </div>
+        <div id="tables">
+            <h1>Form Filling</h1>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>E.mail</th>
+                        <th>Address</th>
+                        <th>Pincode</th>
+                        <th>Gender</th>
+                        <th>State</th>
+                        <th>Country</th>
+                        <th>Food</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+                    </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
